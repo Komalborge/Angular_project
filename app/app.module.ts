@@ -33,7 +33,6 @@ import { Comp4Component } from './services/comp4/comp4.component';
 import { PipesdemoComponent } from './pipesdemo/pipesdemo.component';
 import { CountPipe } from './count.pipe';
 import { FilterComponent } from './filter/filter.component';
-import { AboutusComponent } from './aboutus/aboutus.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { ProductComponent } from './product/product.component';
 import { HomeComponent } from './home/home.component';
@@ -72,7 +71,6 @@ import { PagenotfindComponent } from './pagenotfind/pagenotfind.component';
     PipesdemoComponent,
     CountPipe,
     FilterComponent,
-    AboutusComponent,
     ContactusComponent,
     ProductComponent,
     HomeComponent,
