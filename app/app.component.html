@@ -1,0 +1,110 @@
+<!--<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <button class="btn btn-primary" (click)="showSecret = !showSecret">Display Details</button> 
+            <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+            <p *ngIf="showSecret">Secret Password = tuna</p>
+            <div *ngFor="let logItem of log"[ngStyle]="{backgroundColor: logItem >= 5 ? 'blue':'transparent' }
+                "[ngClass]="{'white-text': logItem >= 5}">
+                {{logItem}}
+            </div>
+        </div>
+    </div>
+</div>-->
+
+<!--<div class="row" style="text-align:center;">
+    <div class="col-md-12">
+        <input type="text" placeholder="enter value" (blur)="handleData($event)">
+        <p>Product Name: <input type="text" placeholder="Enter product name" [(ngModel)]="name">
+        </p><p>Product Price: <input type="text" placeholder="Enter product price" [(ngModel)]="price">
+        </p><button class="btn btn-primary" (click)="updateProduct()">Update product</button>
+        <app-hooks [userid]="uid" [parentData]="data" [product]="product"></app-hooks>
+    </div>
+</div
+
+
+   <h1> style="color:black" Two way DataBinding</h1>
+    <br>
+    <div>
+        <b>Username</b>:
+        <input type="text" name="" id="" [(ngModel)]="name" style="background-color: rgb(246, 141, 141);">
+    </div>
+    {{name}}
+
+    <br>
+    <div>
+        <b> Userid</b>:
+        <input type="" name="" id="" [(ngModel)]="userid" style="background-color: aqua;">
+    </div>
+    {{userid}}
+    <br>
+    <br>
+
+    <button>LOGIN</button>-->
+  <!--<div>
+    <h1>{{title}}</h1>
+  </div>
+    <div><table class="table">
+        <thead>
+            <tr>
+                <th>StudentName</th>
+                <th>RollNo</th>
+                <th>Percentage</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let s of student">
+                <td>{{s.StudentName}}</td>
+                <td>{{s.RollNo}}</td>
+                <td>{{s.Percentage}}</td>
+                <td>{{s.Grade}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+  
+
+    <div>
+    <app-child (studentregistration)="getDataFromChild($event)"> 
+
+        </app-child>
+        </div>-->
+        
+        <!--<router-outlet></router-outlet>
+   <app-multipledata></app-multipledata>-->
+   <!--<app-simpleform></app-simpleform>-->
+   <!--<app-simple-validationform></app-simple-validationform>-->
+  <!-- <app-reactive-forms></app-reactive-forms>-->
+  <!--<app-registration></app-registration>-->
+<!--<h2 style="background-color: red;">Assignment on pass object from one comp to another:</h2>-->
+<!--<app-comp1></app-comp1>
+<app-comp2></app-comp2>
+<app-comp3></app-comp3>
+<app-comp4></app-comp4>-->
+<!--<app-pipesdemo></app-pipesdemo>-->
+
+<br>
+<br>
+
+<header style="background-color: antiquewhite; color: aqua;">
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="active"routerLink="home">Home</a></li>
+            <li class="nav-item"><a class="nav-link"  routerLinkActive="active my class" routerLink="contactus">Contact_us</a></li>
+            <li class="nav-item"><a class="nav-link" routerLinkActive="active my class"  routerLink="aboutus">About_Us</a></li>
+            <li class="nav-item"><a class="nav-link "routerLinkActive="active  my class" routerLink="product">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+    
